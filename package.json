@@ -9,14 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EmptyLife/simple-web-socket-client.git"
-  },
   "author": "EmptyLife",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EmptyLife/simple-web-socket-client/issues"
-  },
-  "homepage": "https://github.com/EmptyLife/simple-web-socket-client#readme"
+  
+  "dependencies": {
+    "ws": "^2.3.1"
+  }
 }
