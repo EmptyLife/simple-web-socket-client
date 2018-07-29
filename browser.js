@@ -1,1 +1,3 @@
-module.exports = require("./lib/WebSocket_Browser")
+module.exports = (require("./lib/WebSocket_SendNoOpen"))( 
+	require("./lib/WebSocket_Browser")
+)
