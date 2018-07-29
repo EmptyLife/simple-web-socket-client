@@ -11,7 +11,7 @@
   },
   "author": "EmptyLife",
   "license": "ISC",
-  
+  "browser": "./browser.js",
   "dependencies": {
     "ws": "^2.3.1"
   }
